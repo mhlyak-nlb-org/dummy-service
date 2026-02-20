@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # 6️⃣ Nastavi port (če aplikacija posluša, npr. 5000)
-EXPOSE 5000
+EXPOSE 8000
 
 # 7️⃣ Definiraj ukaz, ki zažene aplikacijo
 CMD ["python", "app.py"]
